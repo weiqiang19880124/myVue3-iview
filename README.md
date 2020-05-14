@@ -1,1 +1,1 @@
-基于vue-cli2.x  vue2.9  vue全家桶 Elementui 构建的项目
+基于vue2.5  vue全家桶 view-design sass预处理 构建的项目
