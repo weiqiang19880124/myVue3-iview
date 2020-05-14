@@ -1,71 +1,69 @@
-html,
-body,
-p,
-ol,
-ul,
-li,
-dl,
-dt,
-dd,
-div,
-blockquote,
-figure,
-fieldset,
-legend,
-textarea,
-pre,
-iframe,
-hr,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin: 0;
-  padding: 0;
+//淘宝css reset
+html {
+  overflow-x:auto;
+  overflow-y:scroll;
 }
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-size: 100%;
-  font-weight: normal;
+body, dl, dt, dd, ul, ol, li, pre, form, fieldset, input, p, blockquote, th, td {
+  font-weight:400;
+  margin:0;
+  padding:0;
 }
-
-ul,li {
-  list-style: none;
+h1, h2, h3, h4, h4, h5 {
+  margin:0;
+  padding:0;
 }
-
-button,
-input,
-select,
-textarea {
-  margin: 0;
+body {
+  background-color:#FFFFFF;
+  color:#666666;
+  font-family:Helvetica,Arial,sans-serif;
+  font-size:14px;
+  padding:0 10px;
+  text-align:left;
 }
-a{
-  text-decoration: none;
+select {
+  font-size:14px;
 }
-img{
-  border: none;
+table {
+  border-collapse:collapse;
 }
-body{
-  font-family: '微软雅黑';
+fieldset, img {
+  border:0 none;
 }
-.el-menu-item.is-active{
-  color: #26bbf0;
+fieldset {
+  margin:0;
+  padding:0;
 }
-.clearfix:after{
-  content:'';
-  display:block;
+fieldset p {
+  margin:0;
+  padding:0 0 0 8px;
+}
+legend {
+  display:none;
+}
+address, caption, em, strong, th, i {
+  font-style:normal;
+  font-weight:400;
+}
+table caption {
+  margin-left:-1px;
+}
+hr {
+  border-bottom:1px solid #FFFFFF;
+  border-top:1px solid #E4E4E4;
+  border-width:1px 0;
   clear:both;
+  height:2px;
+  margin:5px 0;
+  overflow:hidden;
 }
-.Admin{
-  color: #fff;
+ol, ul {
+  list-style-image:none;
+  list-style-position:outside;
+  list-style-type:none;
 }
-.el-menu--horizontal{
-  border-color: transparent;
+caption, th {
+  text-align:left;
+}
+q:before, q:after, blockquote:before, blockquote:after {
+  content:"";
 }
